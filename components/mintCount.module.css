@@ -1,0 +1,67 @@
+.mintCount {
+    /* max-width: 350px;
+    width: 350px; */
+    height: auto;
+    position: absolute;
+    z-index: 9999;
+    top: 7%;
+    left: 24.5%;
+    /* right: 50%; */
+    /* top: 0;
+    left: 0; */
+}
+
+.mint:hover {
+    cursor: pointer;
+}
+
+.mintIcon {
+    position: relative;
+    /* animation: rotate 20s linear infinite; */
+
+}
+
+.mintText {
+    animation: blinker 1s linear infinite;
+    color: #ffffff;
+    /* -webkit-text-stroke: 1px #D1E5AA; */
+    text-shadow: 1px 1px 4px #000000;
+    font-family: 'Bayon', sans-serif;
+    font-size: 20px;
+    position: absolute;
+    top: 47%;
+    left: 50%;
+    z-index: 9999999;
+    transform: translate(-50%, -50%);
+    width: 80%;
+    line-height: 20px;
+    /* background-color: #FFFFFF; */
+}
+
+.mintImage {
+    max-width: 100%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    z-index: 999;
+    transform: translate(-50%, -50%);
+}
+
+@media only screen and (max-width: 812px) {
+    .mintCount {
+        top: 15%;
+        left: 24.5%;
+    }
+}
+
+@keyframes blinker {
+    50% {
+        opacity: 0;
+    }
+}
+
+@keyframes rotate {
+    100% {
+        transform: rotate(360deg);
+    }
+}

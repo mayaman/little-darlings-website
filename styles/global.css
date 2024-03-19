@@ -1,0 +1,160 @@
+html,
+body {
+  padding: 0;
+  margin: 0;
+  font-family: Inter, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto,
+    Oxygen, Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+  text-align: center;
+  background-color: #0D0541;
+  background-image: url(../public/images/purplesky.jpeg);
+  background-position: bottom;
+  background-repeat: no-repeat;
+  background-position-y: top;
+  /* background-size: contain; */
+
+  background-size: 100vw 100vh;
+  background-repeat: no-repeat;
+  background-position: left top;
+
+  color: white;
+  width: 100vw;
+  min-height: 100vh;
+}
+
+::-moz-selection {
+  /* Code for Firefox */
+  color: #df92b7;
+  background: #B50F0F;
+}
+
+::selection {
+  color: #df92b7;
+  background: #B50F0F;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+.splash {
+  position: relative;
+  width: 100vw;
+  height: 100vh;
+}
+
+.faq {
+  /* color: #B50F0F; */
+  color: #FFFEA6;
+  /* background: black; */
+  /* border-top: 25px solid #ffffff; */
+  text-shadow: 1px 1px 4px #B50F0F;
+  padding-bottom: 50px;
+}
+
+.faqText h4 {
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  font-size: 58px;
+  color: #FFFEA6;
+  text-shadow: 1px 1px 4px #B50F0F;
+  margin: 25px 0;
+}
+
+.faq a {
+  text-decoration: underline;
+}
+
+.faq a:hover {
+  color: #ebcfe2;
+}
+
+.faqEntry {
+  margin: 10% 0px;
+}
+
+.faqText {
+  width: 60%;
+  margin: auto;
+  padding: 5%;
+  text-align: left;
+  font-size: 18px;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.splashVideo {
+  width: 47vw;
+  height: 47vw;
+  padding-top: 5%;
+}
+
+.dollLaptop {
+  width: 27vw;
+  height: 27vw;
+  position: absolute;
+  bottom: 0;
+  left: 2%;
+  z-index: 999;
+}
+
+.trailer {
+  aspect-ratio: 16 / 9;
+  width: 100%;
+  z-index: 9999999999999999;
+  /* position: absolute; */
+  /* top: 70%;
+  left: 50%;
+  transform: translate(-50%, 0); */
+  filter: drop-shadow(0 0 0.75rem #ebcfe2);
+
+}
+
+
+@media only screen and (max-width: 812px) {
+  .dollLaptop {
+    width: 70vw;
+    height: 70vw;
+    bottom: 5%;
+    left: 2%;
+  }
+
+  .hideMobile {
+    display: none;
+  }
+
+  .faq {
+    padding-bottom: 40vh;
+  }
+
+  .splashVideo {
+    width: 90vw;
+    height: 90vw;
+  }
+
+  .faqText {
+    width: 90%;
+  }
+
+  .faqText h4 {
+    font-size: 36px;
+    margin: 2vw 0;
+  }
+
+  .star {
+    display: none;
+  }
+
+  .splash {
+    position: relative;
+    width: 100vw;
+    height: 80vh;
+  }
+}

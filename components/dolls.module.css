@@ -1,0 +1,19 @@
+.dollImageWrapper {
+    padding-top: 4vh;
+    padding-left: 2vw;
+}
+
+.dollImage {
+    /* border-radius: 90%; */
+    /* background-color: none; */
+    /* box-shadow: 0 0 60px 30px #F26346, 0 0 100px 60px #FFF17D, 0 0 140px 90px #382527; */
+}
+
+.dollBorder {
+    /* width: 40px;
+    height: 40px; */
+    /* border-radius: 90%; */
+    background-color: #0D0541;
+    z-index: 999999999999999;
+    box-shadow: 0 -50px 100px 100px #0D0541;
+}

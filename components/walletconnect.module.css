@@ -1,0 +1,41 @@
+.button {
+    background: #B50F0F;
+    /* background: #5e5328; */
+    color: white;
+    border: none;
+    font-family: 'Bayon', sans-serif;
+    /* width: 350px; */
+    padding: 0px 25px;
+    height: 50px;
+    border-radius: 2px;
+    font-size: 28px;
+    position: absolute;
+    right: 5%;
+    top: 10vh;
+    color: #FFFFFF;
+    /* -webkit-text-stroke: 2px #927CB6; */
+    z-index: 99999999;
+    /* text-shadow: 1px 1px 5px #000000; */
+}
+
+.button {
+    /* cursor: pointer; */
+    /* filter: drop-shadow(2px 2px 0.25rem #000000); */
+}
+
+.button:hover {
+    cursor: pointer;
+    filter: drop-shadow(0 0 0.75rem #FFFEA6);
+}
+
+@media only screen and (max-width: 812px) {
+    .button {
+        /* width: 150px; */
+        padding: 0px 25px;
+        height: 50px;
+        border-radius: 10px;
+        font-size: 14px;
+        right: 7%;
+        top: 20vw;
+    }
+}

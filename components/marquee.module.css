@@ -1,0 +1,47 @@
+.marqueeWrapper {
+    height: 8vh;
+    /* line-height: 8vh; */
+    overflow: hidden;
+    width: 100vw;
+    z-index: 9;
+    color: black;
+    /* background-color: #DF92B6; */
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: grid;
+    text-align: center;
+    /* font-style: italic; */
+    /* font-family: 'Yusei Magic', sans-serif; */
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.movieName {
+    text-align: center;
+    font-size: 0.8em;
+    line-height:  0.1em;
+}
+
+.marqueeText {
+    display: flex;
+    justify-content:space-around;
+    align-items: center;
+    /* gap: 26em; */
+    will-change: transform;
+    filter: drop-shadow(0 0 0.75rem #ffffff);
+   
+    color: white;
+    text-align: left;
+    padding: 0 5%;
+}
+
+.marqueeLink {
+    text-decoration: underline;
+}
+
+@media only screen and (max-width: 812px) {
+    .marqueeWrapper {
+        font-size: 12px;
+    }
+
+}

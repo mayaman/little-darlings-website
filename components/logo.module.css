@@ -1,0 +1,93 @@
+.logoWrapper {
+    position: absolute;
+    width: 100vw;
+    /* height: 30vw; */
+    left: 50%;
+    bottom: 2vh;
+    transform: translate(-50%, 0);
+}
+
+.title {
+    margin: 0px;
+    background-color: red;
+    font-style: italic;
+    font-size: 13vh;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    /* Create the gradient. */
+    background-image: linear-gradient(#C26643, #FFF27C, #FFFEA6);
+
+    /* Set the background size and repeat properties. */
+    background-size: 100%;
+    background-repeat: repeat;
+    /* text-shadow: 1px 1px 5px red; */
+
+    /* Use the text as a mask for the background. */
+    /* This will show the gradient as a text color rather than element bg. */
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    -moz-background-clip: text;
+    -moz-text-fill-color: transparent;
+    -webkit-text-stroke: 3px #7B6253;
+}
+
+.subtitle {
+    margin: 0px;
+    font-size: 2.5vh;
+    font-style: italic;
+    font-family: 'Times New Roman', Times, serif;
+    color: yellow;
+    position: absolute;
+    bottom: -0.5vh;
+    left: 50%;
+    transform: translate(-50%, 0);
+
+    /* Create the gradient. */
+    background-image: linear-gradient(#C26643, #FFF27C, #FFFEA6);
+
+    /* Set the background size and repeat properties. */
+    background-size: 100%;
+    background-repeat: repeat;
+    /* text-shadow: 1px 1px 5px red; */
+
+    /* Use the text as a mask for the background. */
+    /* This will show the gradient as a text color rather than element bg. */
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    -moz-background-clip: text;
+    -moz-text-fill-color: transparent;
+    -webkit-text-stroke: 1px #7B6253;
+}
+
+.date {
+    position: absolute;
+    bottom: -0.5vh;
+    left: 50%;
+    transform: translate(-50%, 0);
+}
+
+@media only screen and (max-width: 812px) {
+    .logoWrapper {
+        width: 50vw;
+        height: 50vw;
+        left: -2vw;
+        top: 6vw;
+    }
+}
+
+@-webkit-keyframes shine {
+    0%, 10% {
+        background-position: -1000px;
+    }
+
+    20% {
+        background-position: top left;
+    }
+
+    90% {
+        background-position: top right;
+    }
+
+    100% {
+        background-position: 1000px;
+    }
+}
