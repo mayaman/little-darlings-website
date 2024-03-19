@@ -6,16 +6,16 @@ body {
     Oxygen, Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
   text-align: center;
   background-color: #0D0541;
-  background-image: url(../public/images/purplesky.jpeg);
+  background: linear-gradient(#0D0541, #B50F0F, #0D0541, #000000);
+  /* background-image: url(../public/images/purplesky.jpeg); */
   background-position: bottom;
   background-repeat: no-repeat;
   background-position-y: top;
   /* background-size: contain; */
 
-  background-size: 100vw 100vh;
+  background-size: 100vw 100%;
   background-repeat: no-repeat;
   background-position: left top;
-
   color: white;
   width: 100vw;
   min-height: 100vh;

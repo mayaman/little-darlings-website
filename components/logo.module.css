@@ -1,5 +1,7 @@
 .logoWrapper {
     position: absolute;
+    z-index: 999999999999999999;
+
     width: 100vw;
     /* height: 30vw; */
     left: 50%;
@@ -37,6 +39,8 @@
     font-family: 'Times New Roman', Times, serif;
     color: yellow;
     position: absolute;
+    z-index: 999999999999999999;
+
     bottom: -0.5vh;
     left: 50%;
     transform: translate(-50%, 0);

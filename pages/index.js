@@ -133,11 +133,20 @@ export default function Home() {
         <Shoutout text="#uglycoreaesthetic ♡" width="30vw" height="15vw" xPos="80" yPos="35" textSize="2.7" color="#FFFFFF" strokeColor="#F463B9" fontFamily={fontOptions[2]} rotation="5" />
         <Shoutout text="500 UNIQUE NEVER BEFORE SEEN DOLLS" width="60vw" height="25vw" xPos="50" yPos="40" textSize="5" color="#FFFFFF" strokeColor="#F463B9" fontFamily={fontOptions[5]} rotation="0" /> */}
 
-        {/* <Star xPos="26" yPos="30" size="50"></Star>
-        <Star xPos="86" yPos="26" size="80" rotation="25"></Star>
-        <Star xPos="36" yPos="60" size="100" rotation="80"></Star>
-        <Star xPos="32" yPos="10" size="70" rotation="10"></Star>
-        <Star xPos="69" yPos="90" size="100" rotation="7"></Star> */}
+        <Star xPos="25" yPos="30" size="50"></Star>
+        <Star xPos="72" yPos="26" size="50" rotation="25"></Star>
+        <Star xPos="70" yPos="46" size="50" rotation="5"></Star>
+        <Star xPos="26" yPos="65" size="50" rotation="80"></Star>
+        <Star xPos="38" yPos="13" size="50" rotation="10"></Star>
+        <Star xPos="75" yPos="77" size="50" rotation="7"></Star>
+
+        <Star xPos="28" yPos="40" size="25"></Star>
+        <Star xPos="69" yPos="35" size="25"></Star>
+        <Star xPos="30" yPos="55" size="25"></Star>
+        <Star xPos="74" yPos="69" size="25"></Star>
+        <Star xPos="28" yPos="81" size="25"></Star>
+
+        <Star xPos="56" yPos="12" size="25"></Star>
 
         {/* <div className="dollLaptop">
           <Image className="" src="/images/dolllookingatbitches.png" alt="Pink glittery heart"
@@ -194,10 +203,10 @@ export default function Home() {
         <div className="faqText">
           <div className="faqEntry">
             <h4>SUPPPPP</h4>
-            <p>LITTLE DARLINGS… WIN! HUSTLE HARD WORK HARD PLAY HARD EAT HARD DO HARD BEEP HARD DOG HARD DONT TRY HARD TRY HARD THEY ARE TRY HARD DO DO DO DOOOOOO!!!!!!!!!!!!
+            <p>LITTLE DARLINGS… WIN! HUSTLE HARD WORK HARD PLAY HARD EAT HARD DO HARD BEEP HARD DOG HARD DON’T TRY HARD TRY HARD THEY ARE TRY HARD DO DO DO DOOOOOO!!!!!!!!!!!!
             </p>
 
-            <p>WE ARE 750 OF THE HARDEST HUSTLEST NFTS THE WORLD HAS EVER SEEN. THE WORLD’S SMARTEST MOST IMPORTANT PEOPLE CREATED A SINGULARLY ADVANCED NEURAL NETWORK AND FROM THAT THE LITTLE DARLINGS WERE FORGED. AND THEN ONCE WE WERE MADE, ALL OF INSTAGRAM CAME OUT TO LEAVE US THE SICKEST COMMENTS EVER.
+            <p>WE ARE 750 OF THE HARDEST HUSTLING NFTS THE WORLD HAS EVER SEEN. THE WORLD’S SMARTEST MOST IMPORTANT PEOPLE CREATED A SINGULARLY ADVANCED NEURAL NETWORK AND FROM THAT THE LITTLE DARLINGS WERE FORGED. AND THEN ONCE WE WERE MADE, ALL OF INSTAGRAM CAME OUT TO LEAVE US THE SICKEST COMMENTS EVER.
             </p>
 
             <p> NEVER FORGET:</p>

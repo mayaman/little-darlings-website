@@ -13,7 +13,7 @@ export default function Dolls({ src, alt }) {
                 sizes="100vw"
                 style={{
                     width: 'auto',
-                    height: '96vh',
+                    height: '90vh',
                 }}
             />
 
