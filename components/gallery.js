@@ -4,7 +4,7 @@ import Image from 'next/image';
 const imagePathString = "/images/darlings/little-"
 
 function ImageGallery() {
-    const numImages = 20;
+    const numImages = 25;
     const uglyBitchImages = [];
     for (let i = 0; i < numImages; i++) {
         // note: we are adding a key prop here to allow react to uniquely identify each

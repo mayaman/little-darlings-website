@@ -124,7 +124,7 @@ export default function Home() {
 
       <section className="splash">
         {true && <WalletConnect></WalletConnect>}
-        <Dolls src="/images/littledarlingstars.png" alt="A group of ugly bitches dolls" />
+        <Dolls src="/images/littledarlingsavengers_vivid.png" alt="A group of ugly bitches dolls" />
         <Logo src="/images/uglybitcheslogo.png" alt="Ugly Bitches" />
         {/* <ReleaseDate /> */}
         {/* <Shoutout text="FINALLY! A doll for the ugly little bitch in your life" width="23vw" height="25vw" xPos="55" yPos="10" textSize="3.4" color="#FFFFFF" strokeColor="#F463B9" fontFamily={fontOptions[7]} rotation="0" addClass="hideMobile" />
@@ -148,11 +148,6 @@ export default function Home() {
 
         <Star xPos="56" yPos="12" size="25"></Star>
 
-        {/* <div className="dollLaptop">
-          <Image className="" src="/images/dolllookingatbitches.png" alt="Pink glittery heart"
-            fill
-          ></Image>
-        </div> */}
       </section>
       {/* {true && (
         <Mint
@@ -193,6 +188,10 @@ export default function Home() {
 
 
       <section>
+        <div className="dollLaptop">
+          <Image className="" src="/images/LittleDarlingsPhoneXL.png" alt="Pink glittery heart" width="500" height="500"
+          ></Image>
+        </div>
         <ImageGallery />
       </section>
       <section className="faq">
@@ -214,12 +213,12 @@ export default function Home() {
             <p>GREATNESS ONLY COMES BEFORE HUSTLE IN THE DICTIONARY.</p>
             <p>THOSE AT THE TOP OF THE MOUNTAIN DIDN’T FALL THERE.</p>
             <p>DON’T WATCH THE CLOCK; DO WHAT IT DOES. KEEP GOING.</p>
-            <p>YOU ARE NO ONE. WE ARE EVERYONE!!!</p>
+            <p> WE'RE EVERYONE! YOU ARE NO ONE!!!!!!</p>
           </div>
 
           <div className="faqEntry">
             <h4>SALE</h4>
-            Litlte Darlings will release on Friday, March 29th, at 10am PT / 1pm ET.
+            Little Darlings will release on Friday, March 29th, at 10am PT / 1pm ET.
           </div>
           <div className="faqEntry">
             <h4>SQUAD</h4>
@@ -234,11 +233,11 @@ export default function Home() {
           </div>
           <div className="faqEntry">
             <h4>LINK AND BUILD</h4>
-            Follow us <a href="https://twitter.com/myuglybitches" target="_blank">@myuglybitches</a>!!!!! View the collection on <a href={`${process.env.NEXT_PUBLIC_OPENSEA_URL}`} target="_blank">OpenSea</a> or <a href={`https://${process.env.NEXT_PUBLIC_VERCEL_ENV == 'production' ? '' : 'goerli.'}etherscan.io/address/${process.env.NEXT_PUBLIC_CONTRACT_ADDRESS}`} target="_blank">Etherscan</a>.
+            Follow us <a href="https://twitter.com/myuglybitches" target="_blank">@myuglybitches</a> bro!!!!! View the collection on <a href={`${process.env.NEXT_PUBLIC_OPENSEA_URL}`} target="_blank">OpenSea</a> or <a href={`https://${process.env.NEXT_PUBLIC_VERCEL_ENV == 'production' ? '' : 'goerli.'}etherscan.io/address/${process.env.NEXT_PUBLIC_CONTRACT_ADDRESS}`} target="_blank">Etherscan</a>.
             {/* <br></br>
             <a href="https://twitter.com/nnHirsch" target="_blank">View the collection on Open Sea</a>. */}
           </div>
-            
+
         </div>
       </section>
     </Layout >

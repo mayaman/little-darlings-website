@@ -16,9 +16,8 @@ export default function Dolls({ src, alt }) {
                     height: '90vh',
                 }}
             />
-
             <div className={styles.dollBorder}>
-                
+
             </div>
         </div>
 

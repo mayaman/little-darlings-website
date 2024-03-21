@@ -4,7 +4,7 @@ import styles from './minting.module.css';
 export default function minting() {
     return (
         <div className={styles.mintWrapper} >
-            <h3>FRIDAY, MARCH 29th, 1:00 pm ET</h3>
+            <h3 className={styles.releaseDate}>RELEASING FRIDAY, MARCH 29th, 1:00 pm ET</h3>
 
             <section className={styles.mintArea}>
                 <div className={styles.mintInfo}>
@@ -13,7 +13,7 @@ export default function minting() {
                         <option value="2">2</option>
                     </select> */}
 
-                    1 LITTLE DARLING FOR 0.1 ETH (334.22 USD)
+                    1 Little Darling = 0.1 ETH (334.22 USD)
                 </div>
                 <button className={styles.mintButton}>MINT!!!!</button>
             </section>

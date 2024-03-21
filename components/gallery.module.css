@@ -8,6 +8,8 @@
     justify-content: center;
     padding: 5vw 0;
     position: relative;
+    background: linear-gradient(#0E0340, #691839, #FFFEA6, #691839, #0E0340);
+
 }
 
 .galleryImage {
