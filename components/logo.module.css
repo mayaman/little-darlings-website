@@ -13,11 +13,11 @@
     margin: 0px;
     background-color: red;
     font-style: italic;
-    font-size: 10vh;
-    /* font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif; */
+    font-size: 13vh;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 
 
-    font-family: "Bowlby One", sans-serif;
+    /* font-family: "Bowlby One", sans-serif; */
     font-weight: 400;
     font-style: italic;
     /* Create the gradient. */

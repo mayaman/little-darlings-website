@@ -15,7 +15,7 @@ export default function minting() {
 
                     1 Little Darling = 0.1 ETH (334.22 USD)
                 </div>
-                <button className={styles.mintButton}>MINT!!!!</button>
+                <button className={styles.mintButton}>MINT!</button>
             </section>
 
         </div>
