@@ -15,7 +15,7 @@ export default function Layout({ children, home }) {
                 <link rel="preconnect" href="https://fonts.googleapis.com" />
                 <link rel="preconnect" href="https://fonts.gstatic.com" crossOrigin />
                 <link href="https://fonts.googleapis.com/css2?family=Bowlby+One&family=Jockey+One&display=swap" rel="stylesheet"></link>
-                <link href="https://fonts.googleapis.com/css2?family=Bayon&family=Dancing+Script:wght@600&family=IM+Fell+French+Canon+SC&family=Irish+Grover&family=Oswald:wght@400;500&family=Paytone+One&family=Roboto:ital,wght@0,400;0,500;0,700;0,900;1,400;1,500;1,900&family=Rum+Raisin&family=Yuji+Mai&family=Yusei+Magic&display=swap" rel="stylesheet" />
+                {/* <link href="https://fonts.googleapis.com/css2?family=Bayon&family=Dancing+Script:wght@600&family=IM+Fell+French+Canon+SC&family=Irish+Grover&family=Oswald:wght@400;500&family=Paytone+One&family=Roboto:ital,wght@0,400;0,500;0,700;0,900;1,400;1,500;1,900&family=Rum+Raisin&family=Yuji+Mai&family=Yusei+Magic&display=swap" rel="stylesheet" /> */}
                 <meta
                     name="description"
                     content="Learn how to build a personal website using Next.js"
