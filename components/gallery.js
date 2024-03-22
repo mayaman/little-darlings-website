@@ -13,8 +13,8 @@ function ImageGallery() {
         uglyBitchImages.push(<Image
             src={currentImagePath}
             alt={"Ugly bitch example output"}
-            width={900}
-            height={900}
+            width={666}
+            height={666}
             style={{ objectFit: 'cover' }}
             key={currentImagePath}
             className={styles.galleryImage}
