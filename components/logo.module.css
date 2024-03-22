@@ -76,17 +76,18 @@
 @media only screen and (max-width: 812px) {
 
     .title {
-        font-size: 12vw;
+        font-size: 14vw;
     }
 
     .logoWrapper {
         left: 50%;
-        bottom: 0%;
+        bottom: -1vh;
         transform: translate(-50%, 0);
     }
 
     .subtitle {
-        font-size: 18px;
-        bottom: -5vh;
+        font-size: 6vw;
+        bottom: -7vh;
+        width: 70%;
     }
 }

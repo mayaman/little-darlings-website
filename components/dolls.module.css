@@ -19,7 +19,7 @@
 
 @media only screen and (max-width: 812px) {
     .dollImageWrapper {
-        padding-top: 30vh;
+        padding-top: 15vh;
         padding-left: 2vw;
     }
 
@@ -33,6 +33,6 @@
         width: 100%;;
         background-color: #0E0340;
         z-index: 999999999;
-        box-shadow: 0 0px 50px 50px #0E0340;
+        box-shadow: 0 0px 50px 70px #0E0340;
     }
 }

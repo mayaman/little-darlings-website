@@ -134,7 +134,7 @@ img {
 
   html,
   body {
-    background-size: 100vw 88vh;
+    background-size: 100vw 70vh;
   }
 
   .dollLaptop {
@@ -149,7 +149,7 @@ img {
   }
 
   .faq {
-    padding-bottom: 40vh;
+    padding-bottom: 10vh;
   }
 
   .splashVideo {
@@ -159,6 +159,7 @@ img {
 
   .faqText {
     width: 90%;
+    font-size: 0.9em;
   }
 
   .faqText h4 {
@@ -173,6 +174,6 @@ img {
   .splash {
     position: relative;
     width: 100vw;
-    height: 85vh;
+    height: 70vh;
   }
 }
