@@ -3,7 +3,6 @@
     z-index: 999999999999999999;
 
     width: 100vw;
-    /* height: 30vw; */
     left: 50%;
     bottom: 2vh;
     transform: translate(-50%, 0);
@@ -75,28 +74,19 @@
 }
 
 @media only screen and (max-width: 812px) {
+
+    .title {
+        font-size: 12vw;
+    }
+
     .logoWrapper {
-        width: 50vw;
-        height: 50vw;
-        left: -2vw;
-        top: 6vw;
-    }
-}
-
-@-webkit-keyframes shine {
-    0%, 10% {
-        background-position: -1000px;
+        left: 50%;
+        bottom: 0%;
+        transform: translate(-50%, 0);
     }
 
-    20% {
-        background-position: top left;
-    }
-
-    90% {
-        background-position: top right;
-    }
-
-    100% {
-        background-position: 1000px;
+    .subtitle {
+        font-size: 18px;
+        bottom: -5vh;
     }
 }

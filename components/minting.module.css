@@ -24,7 +24,7 @@
     display: inline;
 
     color: white;
-    font-size: 1.1em;
+    /* font-size: 1.1em; */
     background: #691839;
 
     /* font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif; */
@@ -65,6 +65,31 @@
         animation: Pulse infinite 2s linear;
     }
 }
+
+@media only screen and (max-width: 812px) {
+
+    .mintButton {
+        display: block;
+        margin: 5vh auto;
+    }
+
+    .mintArea {
+        display: block;
+    }
+
+    .mintWrapper {
+        font-size: 5vw;
+        margin: 25vh auto;
+    }
+
+    .releaseDate {
+        font-size: 5vw;
+        animation: none;
+    }
+
+
+}
+
 
 @keyframes Pulse {
     0% {

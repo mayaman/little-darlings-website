@@ -11,10 +11,6 @@ export default function Dolls({ src, alt }) {
                 width={1080}
                 height={1080}
                 sizes="100vw"
-                style={{
-                    width: 'auto',
-                    height: '90vh',
-                }}
             />
             <div className={styles.dollBorder}>
 

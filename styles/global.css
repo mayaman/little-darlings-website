@@ -131,11 +131,17 @@ img {
 
 
 @media only screen and (max-width: 812px) {
+
+  html,
+  body {
+    background-size: 100vw 88vh;
+  }
+
   .dollLaptop {
-    width: 70vw;
-    height: 70vw;
-    bottom: 5%;
-    left: 2%;
+    width: 35vw;
+    height: 35vw;
+    bottom: 1%;
+    right: -3%;
   }
 
   .hideMobile {
@@ -167,6 +173,6 @@ img {
   .splash {
     position: relative;
     width: 100vw;
-    height: 80vh;
+    height: 85vh;
   }
 }
