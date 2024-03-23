@@ -2,7 +2,7 @@ import { ethers } from "ethers";
 
 import styles from "./mint.module.css";
 import Image from "next/image";
-import MintCount from "../components/mintCount";
+import MintCount from "./archive_mintCount";
 
 export default function Mint({
   src,

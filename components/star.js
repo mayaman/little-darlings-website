@@ -12,6 +12,5 @@ export default function star({ size, xPos, yPos, rotation }) {
                 sizes="100vw"
             />
         </div >
-
     );
 }

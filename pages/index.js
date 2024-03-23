@@ -6,31 +6,17 @@ import { ethers } from "ethers";
 
 import Layout, { siteTitle } from '../components/layout';
 import Logo from '../components/logo';
-import ReleaseDate from '../components/releaseDate';
 import Dolls from '../components/dolls';
 import Marquee from '../components/marquee';
-import Mint from '../components/mint';
+// import Mint from '../components/archive_mint';
 import Minting from '../components/minting';
-import MintCount from '../components/mintCount';
+// import MintCount from '../components/archive_mintCount';
 import MintedLink from '../components/mintedLink';
 import WalletConnect from '../components/walletconnect';
 import ImageGallery from '../components/gallery';
-import Shoutout from '../components/shoutout';
+// import Shoutout from '../components/archive_shoutout';
 import Star from '../components/star';
 import Image from 'next/image';
-
-const fontOptions = [
-  "'Bayon', sans-serif",
-  "'Dancing Script', cursive",
-  "'IM Fell French Canon SC', serif",
-  "'Irish Grover', cursive",
-  "'Oswald', sans-serif",
-  "'Paytone One', sans-serif",
-  "'Roboto', sans-serif",
-  "'Rum Raisin', sans-serif",
-  "'Yuji Mai', serif",
-  "'Yusei Magic', sans-serif"
-]
 
 console.log("★.｡.:*☆:**:. ⓦ𝕖𝓑s𝕚𝓉𝐄 Ｂʸ 𝓶ⓐ𝐲ᗩ 𝐌𝕒𝓝 .:**:.☆*.:｡.★ ♡ www.mayaontheinter.net ♡ 萬美亞")
 
@@ -126,13 +112,6 @@ export default function Home() {
         {true && <WalletConnect></WalletConnect>}
         <Dolls src="/images/littledarlingsavengers_vivid.png" alt="A group of ugly bitches dolls" />
         <Logo src="/images/uglybitcheslogo.png" alt="Ugly Bitches" />
-        {/* <ReleaseDate /> */}
-        {/* <Shoutout text="FINALLY! A doll for the ugly little bitch in your life" width="23vw" height="25vw" xPos="55" yPos="10" textSize="3.4" color="#FFFFFF" strokeColor="#F463B9" fontFamily={fontOptions[7]} rotation="0" addClass="hideMobile" />
-        <Shoutout text="Desperately Insecure!" width="20vw" height="15vw" xPos="10" yPos="45" textSize="3" color="#FFFFFF" strokeColor="#F463B9" fontFamily={fontOptions[1]} rotation="-2" />
-        <Shoutout text="Your Ugly Bitch will remind you of the constant ugliness and dreariness of life, getting you CLOSER to reality, and closer to your true self." addClass="hideMobile" width="20vw" height="15vw" xPos="55" yPos="76" textSize="1.5" color="#FFFFFF" strokeColor="#F463B9" fontFamily={fontOptions[4]} rotation="0" />
-        <Shoutout text="#uglycoreaesthetic ♡" width="30vw" height="15vw" xPos="80" yPos="35" textSize="2.7" color="#FFFFFF" strokeColor="#F463B9" fontFamily={fontOptions[2]} rotation="5" />
-        <Shoutout text="500 UNIQUE NEVER BEFORE SEEN DOLLS" width="60vw" height="25vw" xPos="50" yPos="40" textSize="5" color="#FFFFFF" strokeColor="#F463B9" fontFamily={fontOptions[5]} rotation="0" /> */}
-
         <Star xPos="25" yPos="30" size="50"></Star>
         <Star xPos="72" yPos="26" size="50" rotation="25"></Star>
         <Star xPos="70" yPos="46" size="50" rotation="5"></Star>
@@ -234,8 +213,6 @@ export default function Home() {
           <div className="faqEntry">
             <h4>LINK AND BUILD</h4>
             Follow us <a href="https://twitter.com/myuglybitches" target="_blank">@myuglybitches</a> bro!!!!! View the collection on <a href={`${process.env.NEXT_PUBLIC_OPENSEA_URL}`} target="_blank">OpenSea</a> or <a href={`https://${process.env.NEXT_PUBLIC_VERCEL_ENV == 'production' ? '' : 'goerli.'}etherscan.io/address/${process.env.NEXT_PUBLIC_CONTRACT_ADDRESS}`} target="_blank">Etherscan</a>.
-            {/* <br></br>
-            <a href="https://twitter.com/nnHirsch" target="_blank">View the collection on Open Sea</a>. */}
           </div>
 
         </div>
