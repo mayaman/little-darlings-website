@@ -18,7 +18,7 @@ export default function logo({ src, alt }) {
                 }}
             /> */}
             <h1 className={styles.title}>LITTLE DARLINGS</h1>
-            <h2 className={styles.subtitle}>ON THE INTERNET, BOYS WILL BE BOYS...</h2>
+            <h2 className={styles.subtitle}>Hello 👋 I'm a thief 💰💸🤑 and I'm here to steal 🤝 your heart ❤️‍🔥</h2>
         </div>
 
     );

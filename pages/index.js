@@ -197,7 +197,10 @@ export default function Home() {
 
           <div className="faqEntry">
             <h4>SALE</h4>
-            Little Darlings will release on Friday, March 29th, at 10am PT / 1pm ET.
+            <p>Little Darlings will release on Friday, March 29th, at 10am PT / 1pm ET.
+            </p>
+            <p>Ugly Bitches holders: </p>
+
           </div>
           <div className="faqEntry">
             <h4>SQUAD</h4>
@@ -207,12 +210,14 @@ export default function Home() {
             <p>            <a href="https://mayaontheinter.net/" target="_blank">Maya Man</a> (Lead artist and Co-founder) is an artist focused on contemporary identity culture on the internet. Her websites, generative series, and installations examine dominant narratives around femininity, authenticity, and the performance of self online. She is the creator of the browser extension <a href="https://glanceback.info/" target="_blank">Glance Back</a> and the Art Blocks curated collection <a href="https://fakeittillyoumakeit.lol/" target="_blank">FAKE IT TILL YOU MAKE IT</a>. She has exhibited internationally at bitforms, NYC; SOOT, Tokyo; Verse, London; Power Station of Art, Shanghai; Feral File, online; and more.
             </p>
 
-            <p>            <a href="https://twitter.com/0x901112a" target="_blank">Golira</a> (Web3 Developer) is an architect, artist, writer and developer who has worked on numerous successful NFT projects including Allstarz and Bloomers.
+            <p>            <a href="https://twitter.com/0x901112a" target="_blank">Golira</a> (Web3 Developer) is an architect, artist, writer and developer who has worked on numerous successful NFT projects including Allstarz, Bloomers, and Ugly Bitches.
             </p>
           </div>
           <div className="faqEntry">
             <h4>LINK AND BUILD</h4>
-            Follow us <a href="https://twitter.com/myuglybitches" target="_blank">@myuglybitches</a> bro!!!!! View the collection on <a href={`${process.env.NEXT_PUBLIC_OPENSEA_URL}`} target="_blank">OpenSea</a> or <a href={`https://${process.env.NEXT_PUBLIC_VERCEL_ENV == 'production' ? '' : 'goerli.'}etherscan.io/address/${process.env.NEXT_PUBLIC_CONTRACT_ADDRESS}`} target="_blank">Etherscan</a>.
+            Follow us <a href="https://twitter.com/myuglybitches" target="_blank">@myuglybitches</a> !!!!! 
+            
+            {/* View the collection on <a href={`${process.env.NEXT_PUBLIC_OPENSEA_URL}`} target="_blank">OpenSea</a> or <a href={`https://${process.env.NEXT_PUBLIC_VERCEL_ENV == 'production' ? '' : 'goerli.'}etherscan.io/address/${process.env.NEXT_PUBLIC_CONTRACT_ADDRESS}`} target="_blank">Etherscan</a>. */}
           </div>
 
         </div>

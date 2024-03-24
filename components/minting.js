@@ -13,10 +13,12 @@ export default function minting() {
                         <option value="2">2</option>
                     </select> */}
 
-                    1 Little Darling = 0.1 ETH (334.22 USD)
+                    {/* 1 Little Darling = 0.1 ETH (334.22 USD) */}
+
                 </div>
-                <button className={styles.mintButton}>MINT!</button>
+                {/* <button className={styles.mintButton}>MINT!</button> */}
             </section>
+            <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSfiyTvLVj32U7t4uJch6viZmRr6RKysYEmmspQTDjkumzTB9A/viewform?embedded=true" width="640" height="600" frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe>
 
         </div>
     );

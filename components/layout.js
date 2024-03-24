@@ -21,7 +21,7 @@ export default function Layout({ children, home }) {
                     content="Little Darlings"
                 />
                 <meta property="og:image" content="https://www.uglybitches.exposed/images/dolllookingatbitches.png" />
-                <meta property="og:image" itemprop="image primaryImageOfPage" content="https://cdn.sstatic.net/Sites/stackoverflow/Img/apple-touch-icon@2.png?v=73d79a89bded">
+                <meta property="og:image" itemprop="image primaryImageOfPage" content="https://cdn.sstatic.net/Sites/stackoverflow/Img/apple-touch-icon@2.png?v=73d79a89bded"/>
 
                     <meta name="og:title" content={siteTitle} />
                     <meta name="twitter:card" content="summary_large_image" />
