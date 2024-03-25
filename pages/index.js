@@ -205,6 +205,8 @@ export default function Home() {
                 <li> <a href="https://www.artblocks.io/collections/curated/projects/0xa7d8d9ef8d8ce8992df33d8b8cf4aebabd5bd270/337" target="_blank"><span className="italic">FAKE IT TILL YOU MAKE IT</span></a></li>
                 <li> <a href="https://www.artblocks.io/collections/curated/projects/0xa7d8d9ef8d8ce8992df33d8b8cf4aebabd5bd270/337" target="_blank"><span className="italic">I'm Feeling Lucky</span></a></li>
                 <li><a href="https://www.artblocks.io/engine/fullyonchain/projects/0x0a1bbd57033f57e7b6743621b79fcb9eb2ce3676/83" target="_blank"><span className="italic">Notes</span></a></li>
+                <li><a href="https://feralfile.com/exhibitions/social-codes-pcl/series/can-i-go-where-you-go-zg5" target="_blank"><span className="italic">can I go where you go?</span></a></li>
+                <li><a href="https://opensea.io/collection/maya-man" target="_blank"><span className="italic">Web Editions (1/1s by Maya Man)</span></a></li>
                 <li><a href="https://www.sacra.family/" target="_blank"><span className="italic">SACRA FAMiGLiA</span></a></li>
                 <li><a href="https://www.sacra.family/bloopers" target="_blank"><span className="italic">SACRA BLooPERS</span></a></li>
                 <li><a href="https://zora.co/collect/zora:0x53e53499f32abb0011c439b464b33b03fff5fe1c" target="_blank"><span className="italic">Dear Scammer</span></a></li>
