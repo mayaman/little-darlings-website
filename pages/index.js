@@ -215,8 +215,9 @@ export default function Home() {
           </div>
           <div className="faqEntry">
             <h4>LINK AND BUILD</h4>
-            Follow us <a href="https://twitter.com/myuglybitches" target="_blank">@myuglybitches</a> !!!!! 
-            
+            <p>            Follow us <a href="https://twitter.com/myuglybitches" target="_blank">@myuglybitches</a> !!!!!
+            </p>
+            <iframe className="emailForm" src="https://docs.google.com/forms/d/e/1FAIpQLSfiyTvLVj32U7t4uJch6viZmRr6RKysYEmmspQTDjkumzTB9A/viewform?embedded=true" frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe>
             {/* View the collection on <a href={`${process.env.NEXT_PUBLIC_OPENSEA_URL}`} target="_blank">OpenSea</a> or <a href={`https://${process.env.NEXT_PUBLIC_VERCEL_ENV == 'production' ? '' : 'goerli.'}etherscan.io/address/${process.env.NEXT_PUBLIC_CONTRACT_ADDRESS}`} target="_blank">Etherscan</a>. */}
           </div>
 

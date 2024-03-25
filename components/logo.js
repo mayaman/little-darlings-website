@@ -18,7 +18,10 @@ export default function logo({ src, alt }) {
                 }}
             /> */}
             <h1 className={styles.title}>LITTLE DARLINGS</h1>
-            <h2 className={styles.subtitle}>Hello 👋 I'm a thief 💰💸🤑 and I'm here to steal 🤝 your heart ❤️‍🔥</h2>
+            {/* <h2 className={styles.subtitle}>The weak get eaten</h2> */}
+            <h2 className={styles.subtitle}>Eat. Sleep. Hustle. Repeat. 💰💸🤑💯🤝❤️‍🔥</h2>
+
+            {/* <h2 className={styles.subtitle}>Hello 👋 I'm a theif 💰💸🤑 and I'm here to steal 🤝 your heart ❤️‍🔥</h2> */}
         </div>
 
     );

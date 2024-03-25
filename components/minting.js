@@ -18,8 +18,6 @@ export default function minting() {
                 </div>
                 {/* <button className={styles.mintButton}>MINT!</button> */}
             </section>
-            <iframe className={styles.emailForm} src="https://docs.google.com/forms/d/e/1FAIpQLSfiyTvLVj32U7t4uJch6viZmRr6RKysYEmmspQTDjkumzTB9A/viewform?embedded=true" frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe>
-
         </div>
     );
 }

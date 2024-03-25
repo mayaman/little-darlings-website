@@ -126,7 +126,17 @@ img {
   left: 50%;
   transform: translate(-50%, 0); */
   filter: drop-shadow(0 0 0.75rem #ebcfe2);
+}
 
+.emailForm {
+  width: 640px;
+  /* width: 100%; */
+  height: 600px;
+}
+
+iframe div.teQAzf {
+  margin: 0px !important;;
+  padding: 0px !important;
 }
 
 
@@ -175,5 +185,11 @@ img {
     position: relative;
     width: 100vw;
     height: 70vh;
+  }
+
+
+  .emailForm {
+    width: 300px;
+    height: 500px;
   }
 }
