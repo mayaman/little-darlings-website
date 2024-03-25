@@ -214,18 +214,18 @@ export default function Home() {
               </ul>
               (2 per wallet max)
             </p>
-            <p>3pm - 4pm ET: Public launch!</p>
+            <p>3pm ET: Public launch!</p>
 
           </div>
           <div className="faqEntry">
             <h4>SQUAD</h4>
-            <p>            <a href="https://annhirsch.mmm.page/home" target="_blank">Ann Hirsch</a> (Lead artist and Co-founder) is an artist and culture jammer who went viral on YouTube in 2008, infiltrated trashy VH1 reality television in 2010, and has had her work shown at The New Museum, MIT, Whitechapel Gallery, The Stedelijk Museum, the International Center of Photography, and more.
+            <p>            <a href="https://annhirsch.mmm.page/home" target="_blank">Ann Hirsch</a> (Lead artist and co-founder) is an artist and culture jammer who went viral on YouTube in 2008, infiltrated trashy VH1 reality television in 2010, and has had her work shown at The New Museum, MIT, Whitechapel Gallery, The Stedelijk Museum, the International Center of Photography, and more.
             </p>
 
-            <p>            <a href="https://mayaontheinter.net/" target="_blank">Maya Man</a> (Lead artist and Co-founder) is an artist focused on contemporary identity culture on the internet. Her websites, generative series, and installations examine dominant narratives around femininity, authenticity, and the performance of self online. She is the creator of the browser extension <a href="https://glanceback.info/" target="_blank">Glance Back</a> and the Art Blocks curated collection <a href="https://fakeittillyoumakeit.lol/" target="_blank">FAKE IT TILL YOU MAKE IT</a>. She has exhibited internationally at bitforms, NYC; SOOT, Tokyo; Verse, London; Power Station of Art, Shanghai; Feral File, online; and more.
+            <p>            <a href="https://mayaontheinter.net/" target="_blank">Maya Man</a> (Lead artist and co-founder) is an artist focused on contemporary identity culture on the internet. Her websites, generative series, and installations examine dominant narratives around femininity, authenticity, and the performance of self online. She is the creator of the browser extension <a href="https://glanceback.info/" target="_blank"><span className="italic">Glance Back</span></a> and the Art Blocks curated collection <a href="https://fakeittillyoumakeit.lol/" target="_blank"><span className="italic">FAKE IT TILL YOU MAKE IT</span></a>. She has exhibited internationally at bitforms, NYC; SOOT, Tokyo; Verse, London; Power Station of Art, Shanghai; Feral File, online; and more.
             </p>
 
-            <p>            <a href="https://twitter.com/0x901112a" target="_blank">Golira</a> (Web3 Developer) is an architect, artist, writer and developer who has worked on numerous successful NFT projects including Allstarz, Bloomers, and Ugly Bitches.
+            <p>            <a href="https://twitter.com/0x901112a" target="_blank">Golira</a> (Web3 developer) is an architect, artist, writer and developer who has worked on numerous successful NFT projects including Allstarz, Little Swag World, and Ugly Bitches.
             </p>
           </div>
           <div className="faqEntry">
@@ -234,6 +234,7 @@ export default function Home() {
             </p>
             <iframe className="emailForm" src="https://docs.google.com/forms/d/e/1FAIpQLSfiyTvLVj32U7t4uJch6viZmRr6RKysYEmmspQTDjkumzTB9A/viewform?embedded=true" frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe>
             {/* View the collection on <a href={`${process.env.NEXT_PUBLIC_OPENSEA_URL}`} target="_blank">OpenSea</a> or <a href={`https://${process.env.NEXT_PUBLIC_VERCEL_ENV == 'production' ? '' : 'goerli.'}etherscan.io/address/${process.env.NEXT_PUBLIC_CONTRACT_ADDRESS}`} target="_blank">Etherscan</a>. */}
+            <p><a href="https://www.moca.org/program/moca-store-presents-little-ugly" target="_blank">AS SEEN AT MOCA THE MUSEUM OF CONTEMPORARY ART IN LOS ANGELES</a></p>
           </div>
 
         </div>
