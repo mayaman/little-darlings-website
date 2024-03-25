@@ -197,9 +197,22 @@ export default function Home() {
 
           <div className="faqEntry">
             <h4>SALE</h4>
-            <p>Little Darlings will release on Friday, March 29th, at 10am PT / 1pm ET.
+            <p>Little Darlings will release on Friday, March 29th. Release times as follows...
             </p>
-            <p>Ugly Bitches holders: </p>
+            <p>1pm - 2pm ET: <a href="https://www.uglybitches.exposed/" target="_blank"><span className="italic">Ugly Bitches</span></a> collectors (2 per wallet guaranteed) love you so much 💝 </p>
+            <p>2pm - 3pm ET: Collectors of
+              <ul>
+                <li> <a href="https://www.artblocks.io/collections/curated/projects/0xa7d8d9ef8d8ce8992df33d8b8cf4aebabd5bd270/337" target="_blank"><span className="italic">FAKE IT TILL YOU MAKE IT</span></a></li>
+                <li> <a href="https://www.artblocks.io/collections/curated/projects/0xa7d8d9ef8d8ce8992df33d8b8cf4aebabd5bd270/337" target="_blank"><span className="italic">I'm Feeling Lucky</span></a></li>
+                <li><a href="https://www.artblocks.io/engine/fullyonchain/projects/0x0a1bbd57033f57e7b6743621b79fcb9eb2ce3676/83" target="_blank"><span className="italic">Notes</span></a></li>
+                <li><a href="https://www.sacra.family/" target="_blank"><span className="italic">SACRA FAMiGLiA</span></a></li>
+                <li><a href="https://www.sacra.family/bloopers" target="_blank"><span className="italic">SACRA BLooPERS</span></a></li>
+                <li><a href="https://zora.co/collect/zora:0x53e53499f32abb0011c439b464b33b03fff5fe1c" target="_blank"><span className="italic">Dear Scammer</span></a></li>
+                <li><a href="https://allstarz.world/" target="_blank"><span className="italic">ALLSTARZ ✰</span></a></li>
+              </ul>
+              (2 per wallet max)
+            </p>
+            <p>3pm - 4pm ET: Public launch!</p>
 
           </div>
           <div className="faqEntry">

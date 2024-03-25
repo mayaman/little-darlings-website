@@ -139,6 +139,9 @@ iframe div.teQAzf {
   padding: 0px !important;
 }
 
+.italic {
+  font-style: italic;
+}
 
 @media only screen and (max-width: 812px) {
 

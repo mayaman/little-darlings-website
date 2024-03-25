@@ -4,7 +4,7 @@ import styles from './minting.module.css';
 export default function minting() {
     return (
         <div className={styles.mintWrapper} >
-            <h3 className={styles.releaseDate}>RELEASING FRIDAY, MARCH 29th, 1:00 pm ET</h3>
+            <h3 className={styles.releaseDate}>🔥 RELEASING THIS FRIDAY, MARCH 29th 🔥</h3>
 
             <section className={styles.mintArea}>
                 <div className={styles.mintInfo}>

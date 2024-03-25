@@ -89,5 +89,13 @@
         font-size: 6vw;
         bottom: -11vh;
         width: 70%;
+        /* Use the text as a mask for the background. */
+        /* This will show the gradient as a text color rather than element bg. */
+        -webkit-background-clip: none;
+        -webkit-text-fill-color: none;
+        -moz-background-clip: none;
+        -moz-text-fill-color: none;
+        -webkit-text-stroke: 1px #7B6253;
     }
+
 }
