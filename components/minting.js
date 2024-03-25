@@ -19,7 +19,7 @@ export default function minting() {
                 {/* <button className={styles.mintButton}>MINT!</button> */}
             </section>
 
-            <iframe className={styles.trailer} title="vimeo-player" src="https://player.vimeo.com/video/926994313?h=45a364975b" frameborder="0" allowfullscreen></iframe>
+            <iframe className={styles.trailer} title="vimeo-player" src="https://player.vimeo.com/video/927131661?h=58c4ec7cd5&amp;badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479" frameborder="0" allowfullscreen></iframe>
         </div>
     );
 }
