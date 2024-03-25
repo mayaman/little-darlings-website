@@ -24,9 +24,6 @@
 }
 
 .galleryImage:hover {
-    max-width: 90%;
-    filter: drop-shadow(0 0 0.75rem #FFFEA6);
-
     /* Start the shake animation and make the animation last for 0.5 seconds */
     animation: none;
 }

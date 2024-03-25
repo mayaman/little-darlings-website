@@ -60,9 +60,10 @@
     filter: drop-shadow(0 0 0.75rem #FFFEA6);
 }
 
-.emailForm {
-    width: 640px;
-    height: 600px;
+.trailer {
+    width: 450px;
+    height: 800px;
+    filter: drop-shadow(0 0 0.75rem #FFFEA6);
 }
 
 @media (prefers-reduced-motion: no-preference) {
@@ -70,6 +71,7 @@
         animation: Pulse infinite 2s linear;
     }
 }
+
 
 @media only screen and (max-width: 812px) {
 
@@ -92,11 +94,10 @@
         animation: none;
     }
 
-    .emailForm {
-        width: 300px;
-        height: 500px;
+    .trailer {
+        width: 315px;
+        height: 560px;
     }
-
 }
 
 

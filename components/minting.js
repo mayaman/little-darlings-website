@@ -18,6 +18,8 @@ export default function minting() {
                 </div>
                 {/* <button className={styles.mintButton}>MINT!</button> */}
             </section>
+
+            <iframe className={styles.trailer} title="vimeo-player" src="https://player.vimeo.com/video/926994313?h=45a364975b" frameborder="0" allowfullscreen></iframe>
         </div>
     );
 }
