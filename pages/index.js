@@ -109,7 +109,7 @@ export default function Home() {
       )}
 
       <section className="splash">
-        {true && <WalletConnect></WalletConnect>}
+        {/* {true && <WalletConnect></WalletConnect>} */}
         <Dolls src="/images/littledarlingsavengers_vivid.png" alt="A group of ugly bitches dolls" />
         <Logo src="/images/uglybitcheslogo.png" alt="Ugly Bitches" />
         <Star xPos="25" yPos="30" size="50"></Star>
@@ -197,8 +197,10 @@ export default function Home() {
 
           <div className="faqEntry">
             <h4>SALE</h4>
-            <p>Little Darlings will release on Friday, March 29th. Release times as follows...
+            <p>Little Darlings is a collection of 750 NFTs. It will release on Friday, March 29th. 
             </p>
+            <p>Each edition will be 0.0666 ETH for <a href="https://www.uglybitches.exposed/" target="_blank"><span className="italic">Ugly Bitches</span></a> collectors and 0.0777 ETH for everyone else.</p>
+            <p>Release times as follows...</p>
             <p>1pm - 2pm ET: <a href="https://www.uglybitches.exposed/" target="_blank"><span className="italic">Ugly Bitches</span></a> collectors (2 per wallet guaranteed) love you so much 💝 </p>
             <p>2pm - 3pm ET: Collectors of
               <ul>
